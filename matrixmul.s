@@ -1,4 +1,4 @@
-	;; for i = 1 to 10
+ 	;; for i = 1 to 10
 	;; 	for j = 1 to 30
 	;; 		C[i, j] = 0
 	;; 		for k = 1 to 20
@@ -9,7 +9,7 @@
 L1:				
 	MOV [EBP], 0
 	ADD EBP, 4
-	CMP EBP, 5200
+	CMP EBP, 5600
 	JNE L1
 
 	;;  Initializing i to 0, out side the first loop.
@@ -54,13 +54,3 @@ Kloop:
 	ADD EBP, 1
 	CMP EBP, 10
 	JNE Iloop
-
-	
-	
-	
-
-	
-	
-	
-	
-	
